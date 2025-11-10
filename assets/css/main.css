@@ -37,6 +37,7 @@
   --nav-dropdown-hover-color: #e87532; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 /* Note: Selection doesn't support transitions, but here's the standard syntax */
+
 ::selection {
     background-color: orange;
     color: white;
