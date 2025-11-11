@@ -39,20 +39,20 @@
 /* Note: Selection doesn't support transitions, but here's the standard syntax */
 
 ::selection {
-    background-color: orange;
+    background-color: #e87532;
     color: white;
     text-shadow: none;
 }
 
 ::-moz-selection {
-    background-color: orange;
+    background-color: #e87532;
     color: white;
     text-shadow: none;
 }
 
 /* For code blocks or specific text */
 pre::selection, code::selection {
-    background-color: orange;
+    background-color: #e87532;
     color: white;
 }
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
