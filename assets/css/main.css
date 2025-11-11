@@ -71,6 +71,46 @@ pre::-webkit-selection, code::-webkit-selection {
     background-color: #e87532;
     color: white;
 }
+
+/* For all browsers */
+::selection {
+    background-color: #e87532;
+    color: white;
+    text-shadow: none;
+}
+
+/* Firefox */
+::-moz-selection {
+    background-color: #e87532;
+    color: white;
+    text-shadow: none;
+}
+
+/* Safari and Chrome */
+::-webkit-selection {
+    background-color: #e87532;
+    color: white;
+    text-shadow: none;
+}
+
+/* For specific elements */
+p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, span::selection, div::selection {
+    background-color: #e87532;
+    color: white;
+    text-shadow: none;
+}
+
+p::-moz-selection, h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, span::-moz-selection, div::-moz-selection {
+    background-color: #e87532;
+    color: white;
+    text-shadow: none;
+}
+
+p::-webkit-selection, h1::-webkit-selection, h2::-webkit-selection, h3::-webkit-selection, h4::-webkit-selection, h5::-webkit-selection, h6::-webkit-selection, span::-webkit-selection, div::-webkit-selection {
+    background-color: #e87532;
+    color: white;
+    text-shadow: none;
+}
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
