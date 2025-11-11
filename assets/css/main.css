@@ -50,8 +50,24 @@
     text-shadow: none;
 }
 
+::-webkit-selection {
+    background-color: #e87532;
+    color: white;
+    text-shadow: none;
+}
+
 /* For code blocks or specific text */
 pre::selection, code::selection {
+    background-color: #e87532;
+    color: white;
+}
+
+pre::-moz-selection, code::-moz-selection {
+    background-color: #e87532;
+    color: white;
+}
+
+pre::-webkit-selection, code::-webkit-selection {
     background-color: #e87532;
     color: white;
 }
